@@ -21,3 +21,9 @@ C:\Users\Steam\source\repos\TestProjectTZ\AuthFromRole\obj\Release\net6.0\AuthFr
 C:\Users\Steam\source\repos\TestProjectTZ\AuthFromRole\obj\Release\net6.0\ref\AuthFromRole.dll
 C:\Users\Steam\source\repos\TestProjectTZ\AuthFromRole\obj\Release\net6.0\AuthFromRole.pdb
 C:\Users\Steam\source\repos\TestProjectTZ\AuthFromRole\obj\Release\net6.0\AuthFromRole.genruntimeconfig.cache
+C:\Users\Steam\source\repos\TestProjectTZ\AuthFromRole\bin\Release\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Steam\source\repos\TestProjectTZ\AuthFromRole\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Steam\source\repos\TestProjectTZ\AuthFromRole\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Steam\source\repos\TestProjectTZ\AuthFromRole\bin\Release\net6.0\MySqlConnector.dll
+C:\Users\Steam\source\repos\TestProjectTZ\AuthFromRole\bin\Release\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Steam\source\repos\TestProjectTZ\AuthFromRole\obj\Release\net6.0\AuthFromRole.csproj.CopyComplete

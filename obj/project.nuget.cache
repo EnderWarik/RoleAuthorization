@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "+Acrjr9R4md/jshuvxnethAw5KJblljXyw2D0lAMk/Ih+Ug9/sI7L7BHtAR1wMFXWkOf9KFvh1tDQ8z6GlFzgg==",
+  "dgSpecHash": "gEvIIWauf/tvvnEgiNF7HtlCWq9dU1VZufrEGDhB/B+LTjPconulNozBcnorLKhzrKL6f6t7z5IvuP2MbKhsbA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Steam\\source\\repos\\TestProjectTZ\\AuthFromRole\\AuthFromRole.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Steam\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0\\microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.0\\microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.0\\microsoft.entityframeworkcore.relational.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0\\microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\mysqlconnector\\2.0.0\\mysqlconnector.2.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.0\\pomelo.entityframeworkcore.mysql.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Steam\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
