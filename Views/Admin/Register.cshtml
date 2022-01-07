@@ -1,0 +1,24 @@
+﻿@model User;
+<h1>Register</h1>
+
+<form asp-controller = "Admin", asp-action = "Register" method = "post">
+    <input hidden asp-for = "ReturnUrl"/>
+    <div>
+        <label>UserName</label> 
+        <input asp-for = "Name"/>
+        <span asp-validation-for="Name"></span>
+    </div>
+     <div>
+        <label>Password</label> 
+        <input asp-for = "Password"/>
+         <span asp-validation-for="Password"></span>
+    </div>
+    <div>
+        <label>Role</label> 
+        <input asp-for = "Role"/>
+         <span asp-validation-for="Role"></span>
+    </div>
+    <p>
+        <button type = "submit">Register</button>
+    </p>
+</form>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TeuIYSz3tzpEg2dpkFz2buorVev11r0VM7nEXS+Pl+g=",
+  "Source": "AuthFromRole",
+  "BasePath": "_content/AuthFromRole",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
