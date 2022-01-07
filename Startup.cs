@@ -1,4 +1,6 @@
-﻿namespace AuthFromRole
+﻿using System.Security.Claims;
+
+namespace AuthFromRole
 {
     public class Startup
     {
@@ -12,8 +14,25 @@
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAuthentication("Cookie").AddCookie("Cookie", config => {config.LoginPath = "/Admin/Login"; }); 
-            services.AddAuthorization();
+            services.AddAuthentication("Cookie").AddCookie("Cookie", config => 
+            {
+                config.LoginPath = "/Admin/Login";
+                config.AccessDeniedPath = "/Home/AccessDenied";
+            });
+
+            services.AddAuthorization(options => 
+            {
+                options.AddPolicy("Admin", builder =>
+                {
+                    builder.RequireClaim(ClaimTypes.Role, "Admin");
+                });
+
+                options.AddPolicy("User", builder =>
+                {
+                    builder.RequireAssertion(x => x.User.HasClaim(ClaimTypes.Role, "User")
+                                            || x.User.HasClaim(ClaimTypes.Role, "Admin"));
+                });
+            });
 
             services.AddControllersWithViews();
         }

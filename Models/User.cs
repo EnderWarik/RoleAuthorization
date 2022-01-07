@@ -14,7 +14,7 @@ namespace AuthFromRole.Models
 
         [Required]
         public string ReturnUrl { get; set; }
-        
+        [Required]
         public string Role { get; set; }
         //public Role Role { get; set; }
         

@@ -1,2 +1,11 @@
 ﻿<h1>Home</h1>
 <a asp-controller="Admin" asp-action = "Index">Admin</a>
+<a asp-controller="Admin" asp-action = "AdminIndex">AdminIndex</a>
+<a asp-controller="Admin" asp-action = "UserIndex">UserIndex</a>
+
+<p>
+    IsAuthenticated : @ViewBag.IsAuthenticated
+</p>
+<p>
+    Name : @ViewBag.Name
+</p>
